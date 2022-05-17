@@ -39,10 +39,10 @@ function draw(){
         xCloud=700;
         score=0;
     }
-    if((key == ' ')|| (mouseIsPressed && (bounceUp == true) && (start == true)) {
+    if(((key == ' ')|| mouseIsPressed )&& (bounceUp == true) && (start == true)) {
         y-=7;
     }
-    else if(((key == ' ')|| (mouseIsPressed && (bounceUp == false) && (start == true)) || ((y <= 200) && (start == true))) {
+    else if((((key == ' ')|| mouseIsPressed )&& (bounceUp == false) && (start == true)) || ((y <= 200) && (start == true))) {
         y+=6;
     }
     if(y < 40) {
